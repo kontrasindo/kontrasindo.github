@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { font-family: gisha; 
+    src: url('font/gisha.ttf'); } 
+body{
+    background: #e7d4c5;
+    min-height: 100vh;
+    font-family: gisha;
+    
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 10px;
+ 
+}
+header{
+margin: 30px auto 0;
+text-align: center;
+}
+header .logo{
+    max-width: 100px ;
+    max-height: 100px;
+    margin:0 auto;
+}
+header h1{
+    font-size: 25px;
+    margin:10px 0 ;
+
+}
+header p{
+    font-size: 16px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ margin: 10px 0;
+}
+article a{
+   display: inline-block; 
+   margin: 10px 0;
+   text-align: center;
+   transition: 0.3s;
+}
+article a:hover{
+transform: scale(1.1);
+}
+
+
+article a button{
+    width: 75%;
+    padding: 10px 20px;
+    background: #152c4b;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+  
+}
+article a button img{
+    max-width: 15px;
+    width: 100%;
+}
